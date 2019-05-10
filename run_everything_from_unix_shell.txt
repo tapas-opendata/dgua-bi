@@ -1,0 +1,9 @@
+jupyter nbconvert --ExecutePreprocessor.timeout=8000 --to notebook --execute 01_retrive_data.ipynb 
+jupyter nbconvert --ExecutePreprocessor.timeout=600 --to notebook --execute 02_packages.ipynb
+jupyter nbconvert --ExecutePreprocessor.timeout=600 --to notebook --execute 03_resources.ipynb
+jupyter nbconvert --ExecutePreprocessor.timeout=600 --to notebook --execute 04_fields.ipynb
+jupyter nbconvert --ExecutePreprocessor.timeout=600 --to notebook --execute 05_tags.ipynb
+jupyter nbconvert --ExecutePreprocessor.timeout=600 --to notebook --execute 06_packages_aggregation.ipynb
+
+find . -name '*.nbconvert.ipynb' -delete
+
