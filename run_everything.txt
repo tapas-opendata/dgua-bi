@@ -1,0 +1,6 @@
+python3 01_retrive_data.py
+python3 02_packages.py
+python3 03_resources.py
+python3 04_fields.py
+python3 05_tags.py
+python3 06_packages_aggregation.py
